@@ -74,7 +74,7 @@
       padding: 10px;
       border: 1px solid #7e7d7d;
       border-radius: 4px;
-      resize:inherit;
+      resize: none;
       font-family: inherit;
   }
 
@@ -102,7 +102,6 @@
       color: #444444;
   }
 
-  /* Third container - Top words */
   #top-words-box {
       display: flex;
       flex-direction: column;
@@ -219,7 +218,7 @@
 
   .lightimg {
       background-image: url(../img/3352126.jpg);
-      background-position: 70%;
+      background-position: 30%;
   }
 
   .light {
