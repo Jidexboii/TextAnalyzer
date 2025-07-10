@@ -13,17 +13,19 @@
 
 <body>
     <div class="boxes">
-       <p> LIVE Text ANALYSER</p>
-       <div class="mode" ><div class="ball" id="light" ></div></div>
+        <p> LIVE Text ANALYSER</p>
+        <div class="mode">
+            <div class="ball" id="light"></div>
+        </div>
     </div>
     <div class="main-container">
-        <!-- First Container - Textarea -->
+
         <div class="box" id="text-input-box">
             <h2>Enter Your Text</h2>
             <textarea id="input-text" placeholder="Type or paste your text here..."></textarea>
         </div>
 
-        <!-- Second Container - Word Count Stats -->
+
         <div class="box" id="stats-box">
             <h2>Text Statistics</h2>
             <div class="stats">
@@ -36,7 +38,7 @@
             </div>
         </div>
 
-        <!-- Third Container - Top 3 Words -->
+
         <div class="box" id="top-words-box">
             <h2>Top 3 Words</h2>
             <div id="top-words-list">
@@ -44,21 +46,17 @@
             </div>
         </div>
 
-        <!-- Fourth Container - Search -->
         <div class="box" id="search-box">
             <h2>Search Text</h2>
             <div class="search-container">
                 <input type="text" id="search-term" placeholder="Enter word to search...">
                 <div class="stat-item">
-                Total word occurence count : <span id="word-occurence" class="stat-value">0</span>
+                    Total word occurence count : <span id="word-occurence" class="stat-value">0</span>
+                </div>
             </div>
-            </div>
-            
             <div class="search-results" id="search-results">
-
             </div>
         </div>
     </div>
 </body>
-
 </html>
