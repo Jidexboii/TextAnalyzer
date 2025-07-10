@@ -18,7 +18,7 @@ function lowerCase(text) {
 }
 
 function badWordsArray() {
-    let bad = ['zoinks', 'loopdaloop', 'biffaroni', 'muppeteer'];
+    let bad = ['zoinks', 'loopdaloop', 'biffaroni', 'crazy', 'stupid'];
     return bad;
 }
 

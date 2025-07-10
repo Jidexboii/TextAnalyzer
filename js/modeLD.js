@@ -5,7 +5,7 @@ function modeplacing(selector1, selector2,selector3, classname1, classname2,clas
 }
 
 $(document).ready(function () {
-    $("#light").toggleClass(function () {
+    $("#light").click(function () {
         modeplacing('.box', 'body','.mode', 'light', 'lightimg','switch')
     })
 })
