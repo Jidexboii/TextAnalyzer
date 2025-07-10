@@ -218,7 +218,7 @@
 
   .lightimg {
       background-image: url(../img/3352126.jpg);
-      background-position: 30%;
+      background-position: 70%;
   }
 
   .light {
@@ -233,7 +233,6 @@
   }
 
   .matched {
-
       border: 3px solid rgb(14, 13, 13);
   }
 
